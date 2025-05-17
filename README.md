@@ -25,36 +25,66 @@ Building this app wasn’t straightforward—I encountered hurdles along the way
 ### 1️⃣ **Using React for the First Time**  
 Starting fresh, I built the frontend using **React**, getting familiar with components, state management, and UI design.  
 
+![Create a Vite + React Page](assets/create%20a%20Vite%20+%20React%20page.png)
+
+
 ### 2️⃣ **Setting Up AWS Amplify**  
 - Installed **Amplify CLI** and initialized the project.  
 - Amplify had to **update all JS and configurations**, ensuring everything was structured correctly before moving forward.  
-- Connected the project to **GitHub** to enable version control and continuous deployment.  
+- Connected the project to **GitHub** to enable version control and continuous deployment.
+
+  ![Installing Amplify and Pushing Git](assets/installing%20Amplify%20and%20pushing%20git.png)
+
 
 ### 3️⃣ **Configuring AWS IAM & Storage**  
 - Added **IAM roles** for proper user permissions.  
-- Set up **storage resources** within Amplify for managing data.  
+- Set up **storage resources** within Amplify for managing data.
+
+![Adding Storage to Amplify](assets/Adding%20storage%20to%20Amplify.png)
+  
 
 ### 4️⃣ **Sandbox Issues & Fixes**  
 - Opened the **Amplify sandbox** to test configurations before full deployment.  
 - **Mistakenly closed it**, causing unexpected issues.  
 - Learned that I needed to **keep it running** while executing commands in another terminal.
 
-  
 
 
 ### 5️⃣ **Setting Up Access & Authentication**  
 - **Created AWS Access Keys** for authentication.  
 - Struggled with **Amplify Auth** setup, ensuring proper security configurations.  
-- Adjusted TypeScript settings, making it **more private** with JavaScript changes.  
+- Adjusted TypeScript settings, making it **more private** with JavaScript changes.
+
+![Access Key Creation](assets/access%20key%20creation.png)
+
+![Amplify Auth](assets/Amplify%20Auth.png)
+
+![Changing TS to Be More Private](assets/changing%20TS%20to%20be%20more%20private..png)
+
+
+   
 
 ### 6️⃣ **Creating a User & Deploying Amplify**  
 - Set up a **user authentication flow** within Amplify.  
-- Deployed the Amplify project, verifying backend configurations.  
+- Deployed the Amplify project, verifying backend configurations.
+
+![Deploying Amplify App](assets/Deploying%20Amplify%20App.png)
+ 
 
 ### 7️⃣ **Final GitHub Integration & Deployment**  
 - Fully connected the **GitHub repository** with Amplify.  
 - Installed Amplify hosting and pushed code updates.  
-- Verified that everything was running correctly, leading to a **successful deployment**!  
+- Verified that everything was running correctly, leading to a **successful deployment**!
+
+![Getting Git Setup](assets/Getting%20Git%20setup.png)
+
+
+![Creating User](assets/creating_user.png)
+
+
+
+![Bucketlist](assets/Bucketlist.png)
+
 
 ## 🎉 Shoutout to TechWithLucy  
 A massive **thank you to TechWithLucy**, whose tutorial helped me navigate some of the toughest parts of this process. Without their guidance, I would’ve been stuck for a lot longer!  
